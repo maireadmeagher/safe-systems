@@ -1,0 +1,571 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     
+
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
+     <script>hljs.initHighlightingOnLoad();</script>
+
+     
+
+     <style>
+       
+
+body 
+{
+  font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
+}
+
+figcaption
+{
+  margin-bottom: 20px;
+}
+
+.vertical-align
+{
+  display: flex;
+  align-items: center;
+}
+
+
+
+     </style>
+
+   </head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+<header class="ui middle aligned center aligned stackable grid segment">
+
+  <a class="ui blue left corner label">
+  <div id="showTOC" class="popup" data-content="Reveal TOC">
+    <i id="toc" class="sitemap big  icon"></i>
+  </div>
+</a>
+
+  <div class="seven wide center aligned column">
+    <h2 class="headder"> Verification of Safe & Secure Systems using Formal Specification </h2>
+    <p> Top Level Topics </p>
+  </div>
+
+
+  
+
+  
+<div class="four wide column">
+  <div class="ui center aligned mini message segment">
+    Mairead Meagher (mmeagher@wit.ie) .
+    <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank">Creative Commons License
+    </a>
+  </div>
+</div>
+
+
+  
+<div class="ui two wide right aligned column">
+  <div class="ui left aligned middle aligned very basic grid">
+    <div class="row">
+      <div class="popup" data-content="All Slides in Course">
+        <a href="talkwall.html"> <i class="large film icon"></i> All Slides </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="popup" data-content="All Labs in Course">
+        <a href="labwall.html"> <i class="large lab icon"></i> All Labs </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</header>
+
+
+<div class="ui segment pushable">
+  <div class="ui inverted inline vertical sidebar menu">
+    
+    <div class="header">
+      <a class="item" href="topic01-introduction-to-formal-spec/index.html">
+         Verification of Safe & Secure Systems using Formal Specification - An Introduction
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic01-introduction-to-formal-spec/talk-1/a-introduction.pdf">
+          Verification of Safe & Secure Systems using Formal Specification - An Introduction</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic01-introduction-to-formal-spec/talk-2/b-slides-introduction.pdf">
+          Slides</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic02-introduction-to-sets-and-types/index.html">
+         Introduction to Sets, Types and Notation
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic02-introduction-to-sets-and-types/talk-1/b-sets-and-basic-notation.pdf">
+          Sets, Types and Basic Notation</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02-introduction-to-sets-and-types/talk-2/b-slides-sets-and-basic-notation.pdf">
+          Introduction to Sets, Types and Notation</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02-introduction-to-sets-and-types/talk-3/c-exercises-sets-and-basic-notation.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02-introduction-to-sets-and-types/talk-4/d-solutions-sets-and-basic-notation.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic03-introduction -to-schemas/index.html">
+         Introduction to Schemas
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic03-introduction -to-schemas/talk-1/a-introduction-to-schemas.pdf">
+          Introduction to Schemas</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03-introduction -to-schemas/talk-2/b-slides- introduction-to-schemas.pdf">
+          Introduction to Schemas - Slides</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03-introduction -to-schemas/talk-3/c-exercises-introduction-to-schemas.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03-introduction -to-schemas/talk-4/d-solutions-introduction-to-schemas.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic04-predicates/index.html">
+        Predicates
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic04-predicates/talk-1/a-predicates.pdf">
+          Predicates</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04-predicates/talk-2/b-slides-predicates.pdf">
+          Predicates - Slides</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04-predicates/talk-3/c-exercises-predicates.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic04-predicates/talk-4/d-solutions-predicates.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic05-relations/index.html">
+        Relations
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic05-relations/talk-1/a-relations.pdf">
+          Relations</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05-relations/talk-2/b-slides-relations.pdf">
+          Relation Slides</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05-relations/talk-3/c-exercises-relations.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic05-relations/talk-4/d-solutions-relations.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic06-functions/index.html">
+        Functions
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic06-functions/talk-1/a-functions.pdf">
+          Functions</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06-functions/talk-2/b-slides-functions.pdf">
+          Functions slides</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06-functions/talk-3/c-exercises-functions.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic06-functions/talk-4/d-solutions-functions.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic07-sequences/index.html">
+        Sequences
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic07-sequences/talk-1/a-sequences.pdf">
+          Sequences</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07-sequences/talk-2/b-slides-sequences.pdf">
+          Sequences slides</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07-sequences/talk-3/c-exercises-sequences.pdf">
+          Exercises </a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic07-sequences/talk-4/d-solutions-sequences.pdf">
+          Exercises & Solutions</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic08-interesting-systems/index.html">
+        Interesting Systems
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic08-interesting-systems/talk/a-interesting-systems.pdf">
+          Interesting Systems</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic09-resources/index.html">
+        Resources
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic09-resources/talk-1/a-resources.pdf">
+          Resources</a>
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="pusher">
+    <div class="ui container">
+      <div class="ui basic segment">
+        <div class="ui four doubling stackable cards">
+          
+          
+  
+  <a class="ui raised link card" href="./topic01-introduction-to-formal-spec/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header">  Verification of Safe & Secure Systems using Formal Specification - An Introduction </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic01-introduction-to-formal-spec/topic.jpg">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Overview of the Formal Methods space. Why, when, how?</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic02-introduction-to-sets-and-types/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header">  Introduction to Sets, Types and Notation </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic02-introduction-to-sets-and-types/topic.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Introducing  how we use sets and types in the Z notation</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic03-introduction -to-schemas/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header">  Introduction to Schemas </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic03-introduction -to-schemas/topic.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>You start to write a simple specification using schemas</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic04-predicates/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Predicates </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic04-predicates/topic.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Introducing and writing universal and existential quantification statements and understanding the different kinds of predicate, or Truth Valued Statement.</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic05-relations/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Relations </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic05-relations/topic.jpg">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Relations as a mathematical entity and a modelling tool</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic06-functions/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Functions </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic06-functions/topic.jpg">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>Functions as a mathematical entity and a modelling tool</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic07-sequences/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Sequences </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic07-sequences/topic.jpg">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>SEquences as a mathematical entity and a modelling tool</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic08-interesting-systems/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Interesting Systems </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic08-interesting-systems/topic.gif">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>In this section we look at some more complex systems</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+          
+  
+  <a class="ui raised link card" href="./topic09-resources/index.html">
+  
+    <div class="content">
+        <div class="right floated meta"> <i class="sitemap large icon"></i></div>
+        <div class="header"> Resources </div>
+    </div>
+    <div class="image">
+      <img class="ui bordered rounded image" src="./topic09-resources/topic.png">
+    </div>
+    <div class="content">
+      <div class="description">
+         <p>This includes latex files, word resources..</p>
+
+      </div>
+    </div>
+    
+  </a>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+
+    </footer>
+    <script>
+      $(document).ready(function () {
+  $('img').addClass('ui image');
+  $('.ui.embed').embed();
+
+  const $images = $('.lab img');
+  jQuery.each($images, function (i) {
+    if (($images[i].alt).length > 0) {
+      const divImg = $(document.createElement('div')).addClass('ui basic segment');
+      $($images[i]).wrap(divImg);
+      const divLabel = $(document.createElement('div')).addClass('ui blue ribbon label');
+      divLabel.append($images[i].alt);
+      $(divLabel).insertBefore($images[i]);
+    }
+  });
+
+  $('.ui.embed').embed();
+
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
+
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
+  </body>
+
+ </html>
